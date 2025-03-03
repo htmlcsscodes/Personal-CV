@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.overall {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+
+.profile {
+background-color: azure;
+text-align: center;
+width: 40%;
+}
+
+.profile img {
+width: 100%;
+height: auto;
+border : none;
+}
+
+.profile h1 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.profile span{
+    font-size: 20px;
+    color: black;
+    
+}
+
+.profile p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+.email-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 10px;
+    text-decoration: none;
+    border-radius: 8px ;
+}
+.email-btn:hover {
+    color :black ;
+    background-color:pink;
+}
+
+
+.about {
+padding : 20px;
+width: 60%;
+background-color: #f4f4f4;
+}
+
+.about h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.about p {
+font-size: 14px;
+line-height: 1.5;
+color: black;
+}
+
+.buttons {
+    margin-top: 50px;
+   text-decoration: none;
+}
+
+.resume-btn, .portfolio-btn {
+    background-color: rgb(167, 61, 144);
+    border: 1px solid black;
+    padding: 8px 15px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 14px;
+     text-decoration: none;
+     color: white;
+}
+
+.resume-btn:hover, .portfolio-btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.social-icons {
+float: right;
+margin-top: 80px;
+align-items: right;
+}
+
+.social-icons a {
+    margin-right: 20px;
+    
+
+}
+.social-icons img {
+    width: 20px;
+}
